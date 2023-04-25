@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const Home = () => {
 	const [newTask, setNewTask] = useState("");
 	const [list, setList] = useState([]);
-	const [deleteBottom, setdeleteBottom] = useState(false);
+	
 
 	const remove = (index) => {
 		setList(list.filter((item, y) => y != index));
